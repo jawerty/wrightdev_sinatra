@@ -15,7 +15,7 @@ white-space: pre-wrap;       /* css-3 */
  white-space: -pre-wrap;      /* Opera 4-6 */
  white-space: -o-pre-wrap;    /* Opera 7 */
  word-wrap: break-word;       /* Internet Explorer 5.5+ */
--webkit-text-size-adjust: 10%;
+-webkit-text-size-adjust: 80%;
 }
 #wrapper{  
 	background: #FFF;
@@ -94,7 +94,8 @@ white-space: pre-wrap;       /* css-3 */
 #archives>a{
 	color:#444444;
 	font-size:30px;
-	
+	-webkit-text-size-adjust: 50%;
+
 }
 #archives>a:visited{
 	color:#444444;
@@ -113,7 +114,7 @@ h1{
  white-space: -pre-wrap;      /* Opera 4-6 */
  white-space: -o-pre-wrap;    /* Opera 7 */
  word-wrap: break-word;       /* Internet Explorer 5.5+ */
- -webkit-text-size-adjust: 10%;
+ -webkit-text-size-adjust: 50%;
 
 }  
 pre {
@@ -126,7 +127,7 @@ pre {
  white-space: -pre-wrap;      /* Opera 4-6 */
  white-space: -o-pre-wrap;    /* Opera 7 */
  word-wrap: break-word;       /* Internet Explorer 5.5+ */
- -webkit-text-size-adjust: 10%;
+ -webkit-text-size-adjust: 50%;
 
 }
 #contact_me{
@@ -137,7 +138,7 @@ pre {
 	font-family:arial;
 	margin 10px;
 	font-size:20px;
-
+	
 }
 #contact_me>a{
 	font-family:verdana;
@@ -153,7 +154,7 @@ pre {
 	margin:10px;
 	font-family:verdana;
 	color:#444444;
-
+	
 	font-size:17px;
 }
 #footer{  
@@ -194,5 +195,7 @@ li:hover{
 	color:black;
 }
 a{ 
+	-webkit-text-size-adjust: 50%;
+
     text-decoration:none;  
 }  
