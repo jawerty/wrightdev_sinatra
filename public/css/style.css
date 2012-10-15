@@ -56,7 +56,7 @@ body {
     margin:14px 0;  
     float:left;  
     width: 63%;
-    position:fixed;
+    position:absolute;
 }   
 #side_bar{  
 	height: 100%;
