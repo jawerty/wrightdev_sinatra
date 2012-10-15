@@ -55,13 +55,13 @@ body {
 	padding-left:20px;
     margin:14px 0;  
     float:left;  
-    width: 63%;
+    width: 60%;
     position:absolute;
 }   
 #side_bar{  
 	height: 100%;
     padding:20px 20px 20px 20px;
-    width :30%;  
+    width :27%;  
     float:right;  
     clear:none;  
     background-color:#F5F5F5;  
