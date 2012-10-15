@@ -165,13 +165,13 @@ pre {
     padding-top:20px;  
     border-radius:2.5px;
 
-    background: -moz-linear-gradient(#000000, #888888); /* FF 3.6+ */  
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #787878)); /* Safari 4+, Chrome 2+ */  
+    background: -moz-linear-gradient(#333333, #000000); /* FF 3.6+ */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #000000)); /* Safari 4+, Chrome 2+ */  
     background: -webkit-linear-gradient(#333333, #000000); /* Safari 5.1+, Chrome 10+ */  
-    background: -o-linear-gradient(#787878, #000000); /* Opera 11.10 */  
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#787878'); /* IE6 & IE7 */  
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#787878')"; /* IE8+ */  
-    background: linear-gradient(#000000, #888888); /* the standard */  
+    background: -o-linear-gradient(#333333, #000000); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000'); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000')"; /* IE8+ */  
+    background: linear-gradient(#333333, #000000); /* the standard */  
     
     display:block;  
 }  
