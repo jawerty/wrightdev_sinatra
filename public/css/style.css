@@ -56,7 +56,7 @@ body {
     margin:14px 0;  
     float:left;  
     width: 60%;
-    position:absolute;
+    
 }   
 #side_bar{  
 	height: 100%;
@@ -67,6 +67,7 @@ body {
     background-color:#F5F5F5;  
 	box-shadow: 2px 2px 2px #A1A1A1;
 	border: 1px solid #D5D5D5;
+	position:absolute;
 	}  
 #side_bar>p{
 	
