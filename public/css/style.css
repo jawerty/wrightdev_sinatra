@@ -84,7 +84,7 @@ white-space: pre-wrap;       /* css-3 */
 #side_bar>h1{
 	font-size: 50px;
 	color:#A1A1A1;
-	-webkit-text-size-adjust: 80%;
+	-webkit-text-size-adjust: 50%;
 
 }
 
