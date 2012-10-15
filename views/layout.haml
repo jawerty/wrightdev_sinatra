@@ -1,0 +1,56 @@
+!!!  
+%html  
+  %head  
+    %title Wrightdev
+    %link(rel="stylesheet" href="css/style.css")  
+  %body(background="images/straws.png") 
+    #header  
+      %label#title Jared Wright
+      %br
+      %label#subtitle  'Web and App Developer'
+    #wrapper  
+      
+      #nav 
+        %ol#nav-ol  
+          %a(href="/")  
+            %li Home  
+          %a(href="about")  
+            %li About  
+          %a(href="tutorials")
+            %li Tutorials
+          %a(href="projects")
+            %li Projects
+      #content  
+        =yield  
+      #side_bar  
+        %h1 Archives 
+        #archives
+          %a(href="/") Home
+          %br
+          %pre
+            &nbsp&nbsp&nbsp&nbsp- Welcome to the Homepage
+       
+          %a(href="/about") About 
+          %br
+          %pre
+            &nbsp&nbsp&nbsp&nbsp- About Me
+
+          %a(href="/tutorials") Tutorials
+          %br
+          %pre
+            &nbsp&nbsp&nbsp&nbsp- Intro to Web Development
+            
+          %a(href="/projects") Projects
+          %br
+          %pre
+            &nbsp&nbsp&nbsp&nbsp- Javascript Game Project 
+        %h1 Contact Me
+        #contact_me
+          %p Twitter -
+          %a(href="http://twitter.com/jawerty") @jawerty
+          %p Email - 
+          %label jawerty210@gmail.com
+      #footer  
+        %p  
+          Jared Wright's Blog - Wrightdev
+          

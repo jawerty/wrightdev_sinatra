@@ -1,0 +1,178 @@
+/** reset **/
+* {
+  margin: 0;
+  padding: 0;
+}
+/** endreset **/
+
+body {
+	background: url('../images/straws.png');
+}
+#wrapper{  
+	background: #FFF;
+    width:80%;
+    height: 100%;  
+    margin:45px auto;
+    margin-left: auto;
+    margin-right: auto;  
+    border: 2px solid #D6D6D6;
+    box-shadow: 2px 2px 2px 2px #E4E4E4;
+    border-radius: 4px;
+}   
+    
+/** header **/
+#header{ 
+	padding: 10px; 
+    width:80%;  
+    margin: 50px auto;
+    margin-left: auto;
+    margin-right: auto;
+}   
+#title {
+	color:#565656;
+	font-family:arial;
+	font-size:70px;
+}   
+#subtitle {
+	color:#A0A0A0;
+	font-size:20px;
+	vertical-align:18%;
+}   
+/**/
+    
+    
+#content>p {  
+   color:#444444;
+   font-size:20px;
+   padding-left:10px; 
+}  
+#content>h1 {
+   font-size: 80px;
+} 
+#content{  
+	padding:10px;
+	padding-left:20px;
+    margin:14px 0;  
+    float:left;  
+    width: 63%;
+}   
+#side_bar{  
+	height: 100%;
+    padding:20px 20px 20px 20px;
+    width :30%;  
+    float:right;  
+    clear:none;  
+    background-color:#F5F5F5;  
+	box-shadow: 2px 2px 2px #A1A1A1;
+	border: 1px solid #D5D5D5;
+	
+	}  
+#side_bar>p{
+	
+}
+#side_bar>h1{
+	font-size: 50px;
+	color:#A1A1A1;
+}
+
+#archives{
+	color:#444444;
+	font-size:30px;
+	padding:10px;
+}
+#archives>a{
+	color:#444444;
+	font-size:30px;
+	
+}
+#archives>a:visited{
+	color:#444444;
+}
+#archives>a:hover{
+	color:#A1A1A1;
+}	
+h1{  
+    font-size:150%;  
+    font-family:sans-serif;
+    color:#404040;
+    border-bottom:1px solid #D4D4D4;
+    padding:10px;
+}  
+pre {
+	margin:10px;
+	font-size:18px;
+	font-family:arial;
+	color:#444444;
+	white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+#contact_me{
+	padding: 10px
+}
+#contact_me>p{
+	color:#444444;
+	font-family:arial;
+	margin 10px;
+	font-size:25px;
+
+}
+#contact_me>a{
+	font-family:verdana;
+	margin:10px;
+	font-size:22px;
+		color:#A1A1A1;
+
+}
+#contact_me>a:hover{
+	color:#404040;
+}	
+#contact_me>label{
+	margin:10px;
+	font-family:verdana;
+	color:#444444;
+
+	font-size:22px;
+}
+#footer{  
+    clear:both;  
+    background-color:#F7F7F7;  
+    font-size:80%;  
+    font-family:verdana;  
+    color:#444;
+    padding:10px;  
+    border-top:solid 2px #A1A1A1; 
+    text-align: center; 
+}  
+#nav-ol{  
+    padding-top:20px;  
+    border-radius:2.5px;
+
+    background: -moz-linear-gradient(#000000, #888888); /* FF 3.6+ */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #000000), color-stop(100%, #787878)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(#333333, #000000); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(#787878, #000000); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#787878'); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#787878')"; /* IE8+ */  
+    background: linear-gradient(#000000, #888888); /* the standard */  
+    
+    display:block;  
+}  
+li{  
+	margin: 10px;
+	font-size:30px;
+    color:white;  
+    text-align:center;  
+    display:inline;  
+    padding:5px 10px 0 10px;  
+    margin-right:2px;  
+}  
+li:hover{
+	background-color:#FFF;
+	color:black;
+}
+a{ 
+    text-decoration:none;  
+}  
