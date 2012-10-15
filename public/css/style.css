@@ -7,6 +7,14 @@
 
 body {
 	background: url('../images/straws.png');
+	
+}
+p, h2, label {
+white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
 #wrapper{  
 	background: #FFF;
@@ -99,6 +107,11 @@ h1{
     color:#404040;
     border-bottom:1px solid #D4D4D4;
     padding:10px;
+    white-space: pre-wrap;       /* css-3 */
+ white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+ white-space: -pre-wrap;      /* Opera 4-6 */
+ white-space: -o-pre-wrap;    /* Opera 7 */
+ word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }  
 pre {
 	margin:10px;
