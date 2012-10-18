@@ -193,8 +193,8 @@ li{
     display:inline;  
     padding:5px 10px 0 10px;  
     margin-right:2px; 
-    border-radius: 3px;
- 
+	border-top-right-radius: 3px; 
+	border-top-left-radius: 3px;
 }  
 li:hover{
 	background-color:#FFF;
