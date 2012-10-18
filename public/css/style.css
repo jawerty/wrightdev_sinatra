@@ -132,6 +132,8 @@ pre {
  -webkit-text-size-adjust: 50%;
 
 }
+textarea{resize: none;}
+
 #contact_me{
 	padding: 10px
 }
@@ -191,7 +193,7 @@ li{
     display:inline;  
     padding:5px 10px 0 10px;  
     margin-right:2px; 
-    border-radius: 5px;
+    border-radius: 3px;
  
 }  
 li:hover{
@@ -211,6 +213,30 @@ a{
 	padding: 10px;
 }
 #homeComment>label {
+	color: #404040;
+	font-family: verdana;
+	font-size: 120%;
+}
+/** About Styles **/
+
+
+/** Project Styles **/
+#projectComment {
+	margin: 10px;
+	padding: 10px;
+}
+#projectComment>label {
+	color: #404040;
+	font-family: verdana;
+	font-size: 120%;
+}
+
+/** Tutorial Styles **/
+#tutorialComment {
+	margin: 10px;
+	padding: 10px;
+}
+#tutorialComment>label {
 	color: #404040;
 	font-family: verdana;
 	font-size: 120%;
