@@ -201,3 +201,15 @@ a{
 
     text-decoration:none;  
 }  
+
+
+/** Home Styles **/
+#homeComment {
+	margin: 10px;
+	padding: 10px;
+}
+#homeComment>label {
+	color: #404040;
+	font-family: verdana;
+	font-size: 120%;
+}
