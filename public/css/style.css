@@ -221,22 +221,22 @@ a{
 
 
 /** Project Styles **/
-#projectComment {
+#projectsComment {
 	margin: 10px;
 	padding: 10px;
 }
-#projectComment>label {
+#projectsComment>label {
 	color: #404040;
 	font-family: verdana;
 	font-size: 120%;
 }
 
 /** Tutorial Styles **/
-#tutorialComment {
+#tutorialsComment {
 	margin: 10px;
 	padding: 10px;
 }
-#tutorialComment>label {
+#tutorialsComment>label {
 	color: #404040;
 	font-family: verdana;
 	font-size: 120%;
