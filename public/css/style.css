@@ -172,7 +172,7 @@ textarea{resize: none;}
     text-align: center; 
 }  
 #nav-ol 
-    padding-top:20px 
+    padding-top:20px ;
     border-radius:2.5px;
 	
     background: -moz-linear-gradient(#333333, #000000); /* FF 3.6+ */  
@@ -183,18 +183,18 @@ textarea{resize: none;}
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000')"; /* IE8+ */  
     background: linear-gradient(#333333, #000000); /* the standard */  
     
-    display:block
+    display:block;
   
 li 
-	margin: 10px
-	font-size:30px
-    color:white
-    text-align:center  
-    display:inline  
-    padding:5px 10px 0 10px  
-    margin-right:2px
-	border-top-right-radius: 3px 
-	border-top-left-radius: 3px
+	margin: 10px;
+	font-size:30px;
+    color:white;
+    text-align:center;
+    display:inline;  
+    padding:5px 10px 0 10px;  
+    margin-right:2px;
+	border-top-right-radius: 3px; 
+	border-top-left-radius: 3px;
 
 li:hover{
 	background-color:#FFF;
