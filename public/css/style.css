@@ -171,9 +171,9 @@ textarea{resize: none;}
     border-top:solid 2px #A1A1A1; 
     text-align: center; 
 }  
-#nav-ol{  
-    padding-top:20px;  
-    border-radius:2.5px;
+#nav-ol 
+    padding-top:20px 
+    border-radius:2.5px
 	
     background: -moz-linear-gradient(#333333, #000000); /* FF 3.6+ */  
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #000000)); /* Safari 4+, Chrome 2+ */  
@@ -183,19 +183,19 @@ textarea{resize: none;}
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#000000')"; /* IE8+ */  
     background: linear-gradient(#333333, #000000); /* the standard */  
     
-    display:block;  
-}  
-li{  
-	margin: 10px;
-	font-size:30px;
-    color:white;  
-    text-align:center;  
-    display:inline;  
-    padding:5px 10px 0 10px;  
-    margin-right:2px; 
-	border-top-right-radius: 3px; 
-	border-top-left-radius: 3px;
-}  
+    display:block
+  
+li 
+	margin: 10px
+	font-size:30px
+    color:white
+    text-align:center  
+    display:inline  
+    padding:5px 10px 0 10px  
+    margin-right:2px
+	border-top-right-radius: 3px 
+	border-top-left-radius: 3px
+
 li:hover{
 	background-color:#FFF;
 	color:black;
