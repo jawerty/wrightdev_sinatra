@@ -171,7 +171,7 @@ textarea{resize: none;}
     border-top:solid 2px #A1A1A1; 
     text-align: center; 
 }  
-#nav-ol 
+#nav-ol{
     padding-top:20px ;
     border-radius:2.5px;
 	
@@ -184,8 +184,8 @@ textarea{resize: none;}
     background: linear-gradient(#333333, #000000); /* the standard */  
     
     display:block;
-  
-li 
+}
+li{ 
 	margin: 10px;
 	font-size:30px;
     color:white;
@@ -195,7 +195,7 @@ li
     margin-right:2px;
 	border-top-right-radius: 3px; 
 	border-top-left-radius: 3px;
-
+}
 li:hover{
 	background-color:#FFF;
 	color:black;
