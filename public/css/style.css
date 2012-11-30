@@ -144,14 +144,14 @@ textarea{resize: none;}
 	font-size:20px;
 	
 }
-#contact_me>a{
+a{
 	font-family:verdana;
 	margin:10px;
 	font-size:17px;
 		color:#A1A1A1;
 
 }
-#contact_me>a:hover{
+a:hover{
 	color:#404040;
 }	
 #contact_me>label{
