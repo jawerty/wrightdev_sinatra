@@ -144,9 +144,16 @@ textarea{resize: none;}
 	font-size:20px;
 	
 }
-a{
+#contact_me>a{
 	font-family:verdana;
 	margin:10px;
+	font-size:17px;
+		color:#A1A1A1;
+
+}
+a{
+	font-family:verdana;
+
 	font-size:17px;
 		color:#A1A1A1;
 
