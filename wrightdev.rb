@@ -7,9 +7,6 @@ end
 get '/about' do  
   haml :about  
 end  
-get '/tutorials' do
-  haml :tutorials
-end
 get '/projects' do
   haml :projects
 end
